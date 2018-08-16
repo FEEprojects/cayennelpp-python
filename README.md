@@ -1,6 +1,6 @@
 # Cayenne LPP
 
-This module provides a Cayenne Low Power Payload (LPP) encoder for python/micropython. More info about Cayenne LPP at [Cayenne Docs](https://mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload).
+This module provides a Cayenne Low Power Payload (LPP) encoder for python/micropython. More info about Cayenne LPP at [Cayenne Docs](https://mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload).  This version forked from https://github.com/helder-moreira/cayennelpp-python.
 
 # Supported Data Types
 
