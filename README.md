@@ -2,6 +2,10 @@
 
 This module provides a Cayenne Low Power Payload (LPP) encoder for python/micropython. More info about Cayenne LPP at [Cayenne Docs](https://mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload).  This version forked from https://github.com/helder-moreira/cayennelpp-python.
 
+#installation
+``` sudo python3 setup.py install
+```
+
 # Supported Data Types
 
 Currently supported data types are the same as the ones supported by the official Cayenne LPP C/C++ implementation:
@@ -25,7 +29,7 @@ The syntax also conforms with the official Cayenne LPP C/C++ implementation as d
 #### Example
 
 ```python
-from cayennelpp import CayenneLPP
+from simplecayennelpp import CayenneLPP
 
 c = CayenneLPP()
 c.addTemperature(1, 23.5) # Add temperature read to channel 1 
